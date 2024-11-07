@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body >
+   <table >
+    <caption>
+        <h1> Contact Me</h1></caption>
+    <tr>
+        <th><label for="name"> Name</label></th>
+        <th>
+            <input type="text" placeholder="Enter your first Name" class="inputbox" id="name">
+        </th>
+    </tr>
+    <tr>
+        <th><label for="gender">Gender</label></th>
+        <th>
+            <input type="radio" name="Gender" id="">
+            <samp>Male</samp>
+            
+            <input type="radio" name="Gender" id="">
+            <samp>Female</samp>
+        </th>
+    </tr>
+    <tr>
+        <th><label for="email">Email</label></th>
+        <th><input type="email" name="email" id="email" placeholder="Enter your Email Id" class="inputbox"></th>
+    </tr>
+    <tr>
+        <th>
+            <label for="mobile">Mobile No</label>
+        </th>
+        <th>
+            <input type="number" placeholder="Only 10 digits are allow" class="inputbox" id="mobile"> 
+        </th>
+    </tr>
+    <tr>
+        <th><label for="Purpose">Purpose</label></th>
+        <th><select name="" id="Purpose"  class="inputbox" aria-placeholder="Purpose">
+            <option value="Business">Business</option>
+            <option value="Personal">Personal</option>
+            <option value="Official">Official</option>
+            <option value="Other">Other</option>
+        </select></th>
+    </tr>
+    <tr>
+        <th><label for="PurposeBrief">Purpose-Brief</label></th>
+        <th>
+            <textarea name="PurposeBrief" id="PurposeBrief" class="inputbox"></textarea>
+        </th>
+    </tr>
+    <tr>
+        <th><label for="MeetingDate">Preferred Meeting Date</label></th>
+        <th>
+            <input type="date" name="MeetingDate" id="MeetingDate" placeholder="Preferred Meeting Date" class="inputbox">
+        </th>
+    </tr>
+    <tr>
+        <th><label for="MeetingTime">Preferred Meeting Time</label></th>
+        <th>
+            <input type="time" name="MeetingTime" id="MeetingTime" placeholder="Preferred Meeting Time" class="inputbox">
+        </th>
+    </tr>
+    <tr>
+        <th><label for="Comments">Comments</label></th>
+        <th>
+            <textarea name="Comments" id="Comments" class="inputbox"></textarea>
+        </th>
+    </tr>
+    <tr>
+        <th><button class="button" id="button1" type="reset">Reset</button></th>
+        <th>
+            <th><button class="button" id="button2" onclick="submitData()">Submit</button></th>
+        </th>
+    </tr>
+   </table>
+
+
+   
+</body>
+<script src="contact.js"></script>
+</html>

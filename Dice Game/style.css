@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.main_box{
+    height: 580px;
+    width: 900px;
+    border: 1px solid black;
+    margin: 200px ;
+    margin-left: 300px;
+    border-radius: 12px;
+    margin-top: 60px;
+    background-color: rgba(87, 65, 104, 0.484);
+    position: relative;
+}
+.main_box:hover{
+    border: 1px solid white;
+}
+.game-sction{
+    height: 260px;
+    width: 500px;
+    background-color:transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 0px;
+}
+.player1{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.player2{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.score-sction{
+    height: 180px;
+    width: 290px;
+    background-color: rgba(144, 198, 230, 0.382);
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    border: 3px solid black;
+}
+.img1{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+.img2{
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+    
+}
+.btn{
+    height: 30px;
+    width: 150px;
+    margin-left: 25px;
+    background-color: blue;
+    border: 2px solid rgb(243, 237, 237);
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+
+}
+.table1{
+    height: 80px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table2{
+    background-color:transparent;
+    height: 50px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+.score-sction:hover{
+    border: 2px solid white;
+}
+.btn2{
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+    width: 90px;
+    background-color: rgba(21, 242, 46, 0.925);
+    color: white;
+}
+.btn2:hover{
+    background-color: rgba(38, 212, 58);
+    color: white;
+    height: 35px;
+    width: 95px;
+    font-size: 16px;
+    border: 3px solid white;
+}
+.btn2 a:hover{
+    background-color: red;
+   
+}
+.btn2:active{
+    background-color: aqua;
+}
+span{
+    font-size: 24px;
+    margin: 12px;
+    color: white;
+
+}
+#s{
+    color: #24f40d;
+    font-size: 30px;
+   
+
+}
+.player1 h1{
+    color:rgb(6, 250, 75);
+}
+.player2 h1{
+    color: rgb(180, 229, 75);
+}
+#h1-1{
+    color: rgb(245, 235, 235);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.Wellcome::first-letter{
+    color: red;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    margin-left: 31%;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 23px;
+}
+.Wellcome{
+    color:white;
+    margin-right: 2%;
+}
+.ludo{
+    display: flex;
+}
+.l{
+    color: red;
+    margin-right: 7px;
+    rotate: -15deg;
+    
+}
+.l:hover{
+    font-size: 27px;
+}
+.u{
+    color: rgb(35, 225, 35);
+    margin-right: 7px;
+    rotate: 12deg;
+}
+.u:hover{
+    font-size: 27px;
+}
+.d{
+    color: blue;
+    margin-right: 7px;
+    rotate: 15deg;
+}
+.d:hover{
+    font-size: 27px;
+}
+.o{
+    color: yellow;
+    margin-right: 7px;
+    rotate: 12deg;
+}
+.o:hover{
+    font-size: 27px;
+}
+.game{
+    color:white;
+    margin-left: 2%;
+}
+#Restart{
+    background-color: red;
+}
+#Restart:disabled{
+    background-color: rgba(255, 0, 0, 0.404);
+}
+#Start:disabled{
+    background-color: #24f40d47 ;
+}
+#d{
+    color:wheat;
+    font-size: 24px;
+    margin-left: 35%;
+}
+.inputfild{
+    margin-left: 27%;
+}
+#name1,#name2{
+    height: 28px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+#Roll-btn1:disabled,#Roll-btn2:disabled{
+    background-color: rgba(0, 0, 255, 0.13);
+
+}
+.ani{
+    height: 10px;
+    width: 8px;
+    background-color: red;
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+}
+.ani1{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(64, 255, 0);
+    position: absolute;
+    animation: ani-a 6s linear 5s infinite  ;
+    border-radius: 100%;
+}
+.ani2{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(0, 0, 255);
+    position: absolute;
+    animation: ani-a 5s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani3{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(255, 0, 174);
+    position: absolute;
+    animation: ani-a 4s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani4{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(204, 255, 0);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani5{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(0, 174, 255);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani5{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani6{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(22, 23, 22);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani7{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(204, 255, 0);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani8{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(0, 157, 255);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani9{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(215, 76, 171);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani10{
+    height: 19px;
+    width: 19px;
+    background-color: rgb(0, 255, 68);
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani11{
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    animation: ani-a 7s linear 5s infinite  ;
+    border-radius: 99%;
+}
+.ani1{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(239, 133, 223);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani2{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(218, 222, 128);
+    position: absolute;
+    animation: ani-a 7s linear 9s infinite  alternate-reverse;
+    border-radius: 99%;
+}
+.ani-2 .ani1{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(234, 44, 206);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani2{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(225, 32, 196);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani3{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(215, 16, 185);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani4{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(230, 43, 202);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani5{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(239, 133, 223);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani6{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(239, 133, 223);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani7{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(239, 133, 223);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani8{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(239, 133, 223);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+.ani-2 .ani9{
+    height: 10px;
+    width: 8px;
+    background-color: rgb(239, 133, 223);
+    position: absolute;
+    animation: ani-a 7s linear 2s infinite  ;
+    border-radius: 99%;
+}
+@keyframes ani-a 
+{
+0%{
+    left: 0px;
+    top: 0px;
+}
+25%{
+    left: 895px;
+    top: 0px;
+   
+}
+50%{
+    left:892px;
+    top:571px;
+  
+}
+75%{
+    left: 0px;
+    top: 571px;
+   
+}
+100%{
+    left: 0px;
+    top: 0px;
+}
+    
+}
+.star1{
+    height: 1px;
+    width: 1px;
+    border-radius: 100%;
+    box-shadow:  10px 10px 10px 10px rgb(255, 255, 255);
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    animation: star-ani 2s linear 3s infinite alternate;
+}
+.star2{
+    height: 1px;
+    width: 1px;
+    border-radius: 100%;
+    box-shadow:  10px 10px 10px 10px rgb(9, 193, 221);
+    position: fixed;
+    left: 280px;
+    top: 100px;
+    animation: star-ani 2s linear 2s infinite alternate;
+}
+.star3{
+    height: 1px;
+    width: 1px;
+    border-radius: 100%;
+    box-shadow:  10px 10px 10px 10px rgb(249, 224, 1);
+    position: fixed;
+    left: 680px;
+    top: 130px;
+    animation: star-ani 3s linear 1s infinite alternate;
+}
+.star4{
+    height: 1px;
+    width: 1px;
+    border-radius: 100%;
+    box-shadow:  10px 10px 10px 10px rgb(247, 2, 2);
+    position: fixed;
+    left: 1300px;
+    top: 30px;
+    animation: star-ani 6s linear 1s infinite   alternate;
+}
+.star5{
+    height: 1px;
+    width: 1px;
+    border-radius: 100%;
+    box-shadow:  10px 10px 10px 10px rgb(43, 247, 2);
+    position: fixed;
+    left: 1350px;
+    top: 430px;
+    animation: star-ani 7s linear 1s infinite   alternate;
+}
+
+@keyframes star-ani {
+    0%{
+        box-shadow:  10px 10px 10px 10px rgba(255, 255, 255, 0);
+    }
+    25%{
+        box-shadow:  12px 12px 12px 12px rgba(255, 255, 255, 0.419);
+    }
+    50%{
+        box-shadow:  15px 15px 15px 15px rgba(255, 255, 255, 0.716); 
+      
+    }
+    75%{
+       
+        box-shadow:  17px 17px 17px 17px rgba(255, 255, 255, 0.841);
+    }
+    100%{
+        box-shadow:  17px 17px 17px 17px rgba(255, 255, 255,);
+    }
+    
+}

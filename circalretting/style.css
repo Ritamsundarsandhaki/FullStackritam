@@ -1,0 +1,22 @@
+.box{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.div{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 100%; 
+}
+
+.div-color{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 100%; 
+    background-color: rgb(255, 255, 0);
+}

@@ -1,0 +1,140 @@
+.set{
+   background-color: red;
+   height: 50px;
+   width: 100px;
+   position: relative;
+  top: 0px;
+  transition: all 3s ease-in;
+  transition-duration: 4s;
+  transition-property: all;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  animation-name: f;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+
+}
+.set:hover{
+    background-color: rgb(8, 232, 38);
+    width: 300px;
+    border: 4px solid black;
+    border-radius: 100%;
+    height: 300px;
+    
+}
+
+@keyframes d {
+    from{left: 0px;}
+    to{left:93%}
+    
+}
+@keyframes f {
+    0%{
+        left: 0px;
+        background-color: red;
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+        background-color: yellow;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: greenyellow;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+        background-color: blue;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: black;
+        color: aliceblue;
+    }
+    
+}
+.box{
+    height: 500px;
+    width: 500px;
+    background-color:rgba(255, 255, 0, 0.616);
+    position: relative;
+}
+
+
+.bodr{
+    height:5px;
+    width:5px;
+    background-color: red;
+    position:absolute;
+    left:0px;
+}
+
+
+@keyframes bodrmv {
+    0%{
+        background-color: violet;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: blue;
+        left: 495px;
+        top: 0px;
+    }
+    50%{
+        background-color: yellow;
+        left: 495px;
+        top: 495px;
+    }
+    75%{
+        background-color: green;
+        left: 0px;
+        top: 495px;
+    }
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+
+#bodr1{
+    animation: bodrmv 10s linear 0s infinite alternate;
+}
+#bodr2{
+    animation: bodrmv 10s linear 0.01s infinite alternate;  
+}
+#bodr3{
+    animation: bodrmv 10s linear 0.02s infinite alternate; 
+}
+#bodr4{
+    animation: bodrmv 10s linear 0.03s infinite alternate; 
+}
+#bodr5{
+    animation: bodrmv 10s linear 0.04s infinite alternate;
+}
+#bodr6{
+    animation: bodrmv 10s linear 0.05s infinite alternate; 
+}
+#bodr7{
+    animation: bodrmv 10s linear 0.06s infinite alternate; 
+}
+#bodr8{
+    animation: bodrmv 10s linear 0.07s infinite alternate; 
+}
+#bodr9{
+    animation: bodrmv 10s linear 0.08s infinite alternate; 
+}
+#bodr10{
+    animation: bodrmv 10s linear 0.09s infinite alternate; 
+}

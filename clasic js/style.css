@@ -1,0 +1,21 @@
+
+.main{
+    height:1000px ;
+    width: 1000px;
+    background-image: url(light-bulb.jpg);
+    display: grid;
+}
+.light{
+    height: 130px;
+    width: 130px;
+    background-color: aqua;
+    border-radius: 70%;
+    align-items: center;
+    justify-content: center;
+   margin-left: 54%;
+   margin-top: 23%;
+   
+}
+.light2{
+    background-color: yellow;
+}

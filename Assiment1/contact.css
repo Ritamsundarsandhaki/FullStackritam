@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: 10PX; */
+
+}
+table{
+    height: 500px;
+    width: 550px;
+    margin: 40px;
+    border: 2px solid rgb(241, 229, 229);
+    border-radius: 17px;
+    background-color: transparent;
+    margin-left: 430px;
+    color: aliceblue;
+    box-shadow:  seashell;
+    /* text-align: center; */
+    
+}
+.inputbox{
+    
+    height: 30px;
+    width:350px;
+    margin-left: 0;
+    border-radius: 7px;
+    text-align: center;
+}
+.button{
+    background-color: antiquewhite;
+    height: 35px;
+    width: 75px;
+    border: 1px solid black;
+    color: white;
+    border-radius:11px;
+
+    
+}
+#button1{
+    background-color: rgb(236, 43, 43);
+}
+#button2{
+    background-color: green;
+}
+caption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(246, 247, 248);
+}
+table tr th:nth-child(1)
+{
+    font-size: 19px;
+}
+samp{
+    font-size: 19px;
+}
+body{
+    background-color: rgba(36, 36, 117, 0.749);
+}
+

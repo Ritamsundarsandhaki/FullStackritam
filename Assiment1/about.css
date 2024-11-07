@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(8, 2, 52, 0.827);
+}
+.main-calss{
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 3%;
+}
+.hading1{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(240, 235, 72, 0.974);
+}
+.des{
+    color: rgba(240, 248, 255, 0.455);
+}
+.skill-h{
+    margin-left: 15%;
+}
+.Information{
+    margin: 7%;
+    margin-left: 10%;
+    text-align: center;
+}
+#name{
+    font-size: 40px;
+    color: antiquewhite;
+}
+.def-1{
+    color: rgba(255, 228, 196, 0.37);
+}
+.add{
+    color: antiquewhite;
+}
+.skill-h h1{
+    font-size: 47px;
+    width: 15%;
+    color: rgba(227, 82, 29, 0.932);
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 40px;
+    width: 230px;
+    font-size: 19px;
+    background-color: rgb(241, 59, 59);
+    color: aliceblue;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.btn{
+    margin-left: 42%;
+    margin-right: 42.9%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    box-shadow: 4px 4px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color:rgba(8, 2, 52, 0.26);
+    margin: 23px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 4px;
+}
+.box h1{
+    font-size: 1.4rem;
+    text-align: center;
+    color: whitesmoke;
+}
+.box .list{
+    text-align: center;
+    color: rgba(172, 206, 237, 0.849);
+}
+.box .list p{
+    margin: 15px;
+}
+.box .hading #hed{
+    text-align: center;
+    margin: 7px;
+    margin-top: 15px;
+    color: beige;
+}
+.box a{
+    font-size: .9rem;
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+}
+.box .hading p{
+    text-align: center;
+    margin: 4px;
+    color:  rgba(172, 206, 237, 0.849);
+
+}
+.up-skill,.down-skill{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box .projet-div,.box .acadamic{
+    text-align: center;
+    margin-top: 14px;
+}
+.box .projet-div h4,.box .acadamic h4{
+    color: beige;
+}
+.box .projet-div p,.box .acadamic p{
+    color: rgba(172, 206, 237, 0.849) ;
+}
+.box .imges img:nth-child(1),.box .imges img:nth-child(2),.box .imges img:nth-child(3){
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.box .imges{
+    height: 80%;
+    display: flex;
+flex-direction: column;
+margin-left: 8%;
+justify-content:space-evenly ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.sill-set{
+
+}

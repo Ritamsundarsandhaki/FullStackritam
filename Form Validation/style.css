@@ -1,0 +1,204 @@
+body{
+    background-color: #a0c4ff;
+}
+
+.main{
+    height: 500px;
+    width: 85%;
+    border: 1px solid rgb(142, 118, 118);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    position: absolute;
+    margin-left: 7%;
+    /* overflow: hidden; */
+    align-items: center;
+    margin-top: 6%;
+    border-radius: 14px;
+    background-color: white;
+}
+.sec1,.sec2,.sec3,.sec4,.sec5,.sec6{
+    border: 1px solid black;
+    margin-left: 12%;
+    margin-right: 12%;
+    position: relative;
+    transition: all 3s ease;
+    
+}
+.sec2{
+left: 24%;
+}
+@keyframes sell {
+    0%{
+        left:0% ;
+    }
+    50%{
+        left:20%;
+    }
+    100%{
+        left: -46%;
+    }
+    
+}
+.sec1{
+    height: 420px;
+    width: 120%;
+    left: 18%;
+    display: flex;
+    background-color: #caf0f8;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  
+}
+.sec2-ani{
+    height: 420px;
+    width: 120%;
+    left: -46%;
+    display: flex;
+    background-color: #261bf4;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+}
+.sec3-ani{
+    height: 420px;
+    width: 120%;
+    left: -110%;
+    display: flex;
+    background-color: #caf0f8;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+  
+  transition: all 3s linear;
+}
+.sec4-ani{
+    height: 420px;
+    width: 120%;
+    left: -174%;
+    display: flex;
+    background-color: #261bf4;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+  
+  transition: all 3s linear;
+}
+.sec5-ani{
+    height: 420px;
+    width: 120%;
+    left: -238%;
+    display: flex;
+    background-color: #caf0f8;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+  
+  transition: all 3s linear;
+}
+.sec6-ani{
+    height: 420px;
+    width: 540px;
+    left: -290%;
+    margin-left: -210%;
+    display: flex;
+    background-color: #261bf4;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+  transition: all 3s linear;
+}
+
+.set{
+    height: 40px;
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.set input{
+    height:37px;
+    width: 260px;
+}
+.set label{
+   margin-left: 2px;
+   font-size: 19px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    height: 89px;
+    width: 240px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -5%;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn-row{
+    height: 40px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn-row button{
+    height: 40px;
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+    border-radius: 19px;
+    box-shadow: 0 0 6px black;
+}
+.btn-col button{
+height: 35px;
+width: 120px;
+margin-top: 3px;
+border: 1px solid black;
+box-shadow: 0 0 7px black;
+border-radius: 19px;
+font-size: 17px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

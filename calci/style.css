@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(35, 32, 32);
+}
+
+.main{
+    height: 450px;
+    width: 650px;
+    border: 1px solid rgb(107, 106, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    border-radius: 10px;
+    background-color: black;
+}
+.section{
+    height: 15%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section button{
+    height:63%;
+    width: 17%;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 23px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(210, 205, 205);
+}
+.Output{
+    height: 12%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(153, 158, 163);
+    border-radius: 9px;
+    color: white;
+   font-size: 23px;
+}
+/* input{
+height: 45px;
+width: 100%;
+border-radius: 7px;
+background-color: rgba(240, 248, 255, 0.649);
+} */
+.col-vvi{
+    background-color: rgb(255, 162, 0);
+}
+.col-vi{
+    background-color: gray;
+}
+.col{
+    background-color: rgb(74, 70, 70);
+}

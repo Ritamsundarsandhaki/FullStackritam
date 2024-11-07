@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pair{
+    display: grid;
+    grid-template-columns: 100px 250px;
+}
+.lablefild{
+    background-color: aqua;
+}
+.inputfild{
+    background-color: blue;
+}
+form{
+    height: 500px;
+    width: 400px;
+    background-color: red;
+}

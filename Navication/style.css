@@ -1,0 +1,33 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar button{
+    height: 52%;
+    width: 17%;
+
+}
+.navbar{
+    padding: 0%;
+    margin: 0%;
+    height: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.information{
+    height: 35%;
+    width: 90%;
+    background-color: red;
+    display: flex;
+}
+.info{
+    height: 13%;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.infoSet{
+    display: none;
+}

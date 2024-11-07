@@ -1,0 +1,29 @@
+.main{
+    height: 460px;
+    width: 440px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.sec{
+    height: 240px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec input{
+    height: 26px;
+    width: 340px;
+    border-radius: 7px;
+}
+.sec button{
+    height: 29px;
+    width: 240px;
+}

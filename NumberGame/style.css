@@ -1,0 +1,40 @@
+ *{
+    padding: 0;
+    margin: 0; 
+     /* box-sizing: border-box;  */
+}
+.swich{
+height: 50px;
+width: 50px;
+background-color: aqua;
+border: 1px solid black;
+border-radius: 10px;
+}
+.swich button{
+    background-color: rgb(23, 171, 65);
+    height: 100%;
+    width: 100%;
+    border-radius: 19px;
+}
+.game-sction,.d{
+    background-color: red;
+    height: 550px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#set{
+    height: 23px;
+    width: 120px;
+    background-color: bisque;
+}
+.d button{
+    height: 50px;
+width: 50px;
+background-color: aqua;
+border: 1px solid black;
+border-radius: 10px;
+}
